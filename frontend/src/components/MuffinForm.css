@@ -1,0 +1,87 @@
+.muffin-form-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #8B4513;
+  max-width: 900px;
+  margin: 2rem auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.muffin-form-container h2 {
+  font-weight: bold;
+  color: #5a2a02;
+  margin-bottom: 1.5rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.form-grid > div {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #5a2a02;
+}
+
+select {
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #b88c6d;
+  font-size: 1rem;
+  background: #fffaf7;
+}
+
+select:focus {
+  outline: none;
+  border-color: #8b4513;
+  box-shadow: 0 0 0 2px rgba(139, 69, 19, 0.2);
+}
+
+.price-display {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  color: #5a2a02;
+  text-align: left;
+}
+
+.muffin-buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+/* 🔸 Scoped Muffin Buttons */
+.muffin-btn {
+  background-color: #8B4513;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.muffin-btn:hover {
+  background-color: #a0522d;
+}
+
+.muffin-btn.cancel {
+  background-color: #ccc;
+  color: #333;
+}
+
+.muffin-btn.cancel:hover {
+  background-color: #a6a6a6;
+}

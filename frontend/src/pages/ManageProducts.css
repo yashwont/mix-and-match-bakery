@@ -1,0 +1,106 @@
+.manage-products {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fdf8f3;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Header */
+.products-header {
+  background-color: #8B4513;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: white;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Dashboard Button */
+.dashboard-btn {
+  background-color: #F5E7D7;
+  color: #8B4513;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-btn:hover {
+  background-color: #f5c0ca;
+}
+
+/* Form */
+.product-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.product-form input,
+.product-form select,
+.product-form button {
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.product-form button {
+  background-color: #8B4513;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.product-form button:hover {
+  background-color: #A0522D;
+}
+
+/* Products Table */
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.product-table th,
+.product-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  max-width: 200px;
+  word-wrap: break-word;
+}
+
+.product-table th {
+  background-color: #faeee7;
+  color: #3d2b1f;
+  font-weight: 600;
+}
+
+.product-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Footer */
+.products-footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: white;
+}

@@ -1,0 +1,83 @@
+.user-orders-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #F5E7D7;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #8B4513;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-btn {
+    background: #FFC0CB;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  /* Content */
+  .orders-content {
+    flex: 1;
+    padding: 2rem;
+  }
+  
+  .orders-title {
+    color: #8B4513;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Table */
+  .orders-table {
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .orders-table th,
+  .orders-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .orders-table th {
+    background: #8B4513;
+    color: white;
+  }
+  
+  .orders-table tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .no-orders-msg {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #3d2b1f;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  

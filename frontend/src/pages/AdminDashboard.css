@@ -1,0 +1,110 @@
+.admin-dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.admin-header {
+  background: #8B4513;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+/* Content Layout */
+.dashboard-content {
+  display: flex;
+  flex: 1;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #F5E7D7;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.sidebar-btn {
+  width: 100%;
+  background: #8B4513;
+  color: white;
+  border: none;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-btn:hover {
+  background: #A0522D;
+}
+
+.logout-btn {
+  background: crimson;
+}
+
+.logout-btn:hover {
+  background: darkred;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+.admin-welcome {
+  margin-bottom: 2rem;
+}
+
+.admin-stats {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  flex: 1;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-recent-orders table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-recent-orders th,
+.admin-recent-orders td {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.admin-recent-orders th {
+  background: #8B4513;
+  color: white;
+}
+
+/* Footer */
+.admin-footer {
+  background:#3d2b1f  ;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}

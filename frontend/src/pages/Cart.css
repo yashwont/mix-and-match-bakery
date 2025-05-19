@@ -1,0 +1,112 @@
+.cart-page {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fffaf5;
+    color: #5c4033;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart-header {
+    background-color: #8B4513;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    cursor: pointer;
+  }
+  
+  header nav button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #F5E7D7;
+    border: none;
+    color: #5c4033;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  header nav button:hover {
+    background-color: #FFC0CB;
+    color: #8B4513;
+  }
+  
+  .cart-container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    flex-grow: 1;
+  }
+  
+  .cart-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    background: #f3e7d7;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .qty-controls {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0.5rem 0;
+  }
+  
+  .qty-controls button {
+    background-color: #ffc0cb;
+    border: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .remove-btn {
+    background-color: #ff6666;
+    border: none;
+    padding: 6px 12px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+
+  .cart-summary {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .cart-summary button {
+    margin: 0.5rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #8b4513;
+    color: white;
+  }
+  
+  .cart-footer {
+    width: 100vw;
+    background: #5c4033;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  

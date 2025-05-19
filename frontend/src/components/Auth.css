@@ -1,0 +1,144 @@
+/* 🔶 Login Header */
+.login-header {
+  background-color: #8B4513;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  flex-wrap: wrap;
+}
+
+.login-header h1 {
+  font-size: 1.8rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.login-header nav a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.login-header nav a:hover {
+  text-decoration: underline;
+}
+
+/* 🔶 Footer */
+.login-footer {
+  background-color: #5D3A2D;
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.Signup-header {
+  background-color: #8B4513;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  flex-wrap: wrap;
+}
+
+.Signup-header h1 {
+  font-size: 1.8rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.Signup-header nav a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.Signup-header nav a:hover {
+  text-decoration: underline;
+}
+
+/* 🔶 Footer */
+.Signup-footer {
+  background-color: #5D3A2D;
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+/* 🔶 Auth Container */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  background: #fff0e6;
+  min-height: calc(100vh - 140px); /* accounts for header & footer */
+}
+
+.auth-box {
+  background: white;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.auth-box h2 {
+  margin-bottom: 1.5rem;
+  color: #8B4513;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 0.8rem;
+  background: #8B4513;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.auth-box button:hover {
+  background: #a05a2c;
+}
+
+.auth-box p {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.google-login-container {
+  width: 100%;
+  margin-top: 1.2rem;
+  display: flex;
+  justify-content: center;
+}
+
+#google-login-btn > div {
+  width: 100% !important; /* Make Google button full width */
+  display: flex;
+  justify-content: center;
+  border-radius: 8px !important;
+}

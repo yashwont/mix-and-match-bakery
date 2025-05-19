@@ -1,0 +1,74 @@
+.cake-form-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #8B4513;
+  max-width: 800px;
+  margin: auto;
+}
+
+.cake-form-container h2 {
+  color: #5a2a02;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.cake-form-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #8B4513;
+}
+
+.cake-form-container select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #8B4513;
+  background: #fffaf7;
+}
+
+.price-display {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #5a2a02;
+}
+
+.cake-button-group {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+/* Scoped button styles */
+.cake-btn {
+  background: #8B4513;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cake-btn:hover {
+  background-color: #a0522d;
+}
+
+.cake-btn.cancel {
+  background-color: #ccc;
+  color: #333;
+}
+
+.cake-btn.cancel:hover {
+  background-color: #a6a6a6;
+}

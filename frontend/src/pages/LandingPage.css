@@ -1,0 +1,103 @@
+/* src/components/LandingPage.css */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #fffaf5;
+    color: #5c4033;
+  }
+  
+  .navbar {
+    background-color: #8B4513;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar nav a {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #F5E7D7;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+  }
+  
+  .cta-buttons .btn {
+    margin: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  .btn {
+    background: #FFC0CB;
+    color: black;
+  }
+  
+  .btn.primary {
+    background: #8B4513;
+    color: white;
+  }
+  
+  .featured, .how-it-works, .about {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .product-preview {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #d4c1b3;
+    width: 300px;
+    padding: 1rem;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+  }
+  
+  footer {
+    background: #5c4033;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  footer .socials a {
+    color: #FFC0CB;
+    margin: 0 0.5rem;
+    text-decoration: none;
+  }
+  

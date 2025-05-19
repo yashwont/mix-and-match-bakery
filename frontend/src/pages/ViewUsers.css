@@ -1,0 +1,95 @@
+.view-users {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fdf8f3;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.users-header {
+  background-color: #8B4513;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: white;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.users-header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Dashboard Button */
+.dashboard-btn {
+  background-color: #F5E7D7;
+  color: #8B4513;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-btn:hover {
+  background-color: #f5c0ca;
+}
+
+/* Main */
+.users-main {
+  flex: 1;
+  overflow-x: auto;
+}
+
+/* Table */
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.users-table th,
+.users-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.users-table th {
+  background-color: #faeee7;
+  color: #3d2b1f;
+  font-weight: 600;
+}
+
+.users-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Badge */
+.badge-user {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  background: #ffc0cb;
+  color: #8b4513;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+/* Footer */
+.users-footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: white;
+}

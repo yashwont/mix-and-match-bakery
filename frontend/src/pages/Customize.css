@@ -1,0 +1,91 @@
+.customize-page {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fffaf5;
+    color: #5c4033;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .customize-header {
+    background-color: #8B4513;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .customize-header h1 {
+    cursor: pointer;
+  }
+  
+  .customize-nav button {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #F5E7D7;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .customize-nav .active {
+    background-color: #FFC0CB;
+    color: #8B4513;
+  }
+  
+  .customize-body {
+    display: flex;
+    flex: 1;
+    padding: 1rem 2rem;
+    gap: 2rem;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background: #f3e7d7;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar button {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background-color: #fff;
+    border: 1px solid #8B4513;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .sidebar .active {
+    background-color: #8B4513;
+    color: white;
+  }
+  
+  .form-area {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .customize-footer {
+    background-color: #5c4033;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  

@@ -1,0 +1,108 @@
+.user-dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background-color: #8B4513;
+  padding: 1rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-btn {
+  background: #F5E7D7;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+/* Content with Sidebar */
+.dashboard-content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 220px;
+  background: #F5E7D7;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+/* Normal buttons */
+.sidebar-btn {
+  width: 100%;
+  background: #8B4513; 
+  color: black;        
+  border: none;       
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Logout button (different color) */
+.logout-btn {
+  background: crimson; /* Crimson red background always */
+  color: black;         /* White text */
+  border: none;
+}
+
+
+/* Main content */
+.main-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+.stats {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: #FFF;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  flex: 1 1 200px;
+  text-align: center;
+}
+
+.recent-orders table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+.recent-orders th,
+.recent-orders td {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+}
+
+.footer {
+  background: #3d2b1f;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}

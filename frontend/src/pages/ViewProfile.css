@@ -1,0 +1,113 @@
+:root {
+  --primary-color: #8B4513;
+  --secondary-color: #F5E7D7;
+  --accent-color: #FFC0CB;
+}
+
+.profile-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--secondary-color);
+}
+
+.profile-header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.profile-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.profile-box {
+  background: white;
+  border: 2px solid var(--accent-color);
+  border-radius: 16px;
+  padding: 30px 40px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.profile-box h2 {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.profile-details p {
+  margin: 12px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.back-btn {
+  background-color: var(--accent-color);
+  color: #333;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.back-btn:hover {
+  background-color: #fdaecb;
+}
+
+.profile-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.password-btn {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.password-btn:hover {
+  background-color: #a0522d;
+}
+
+
+.profile-footer {
+  background-color: #3d2b1f;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.2);
+}
+
+.profile-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 20px;
+  color: var(--primary-color);
+  font-family: 'Segoe UI', sans-serif;
+}
